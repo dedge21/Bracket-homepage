@@ -1,0 +1,75 @@
+body {
+	background-color: #000080;
+	border: 5px solid white;
+	color: white;
+}
+
+#banner {
+	height: 100px;
+	background-color: #000080;
+	margin-bottom: 0px;
+}
+#nav-bar {
+	margin-top: 0px;
+	background-color: #7BAFD4;
+	height: 50px;
+	border: solid white 1px;
+}
+#nav-bar li {
+	display: inline;
+	margin-right: 20px;
+	border: solid white 1px;
+	border-radius: 2px;
+	background-color: #000080;
+	height: 40px;
+}
+
+#Feature {
+	height: 500px;
+	width: 95%;
+	background-image: url("http://www.brazibites.com/wp-content/uploads/2015/08/about-cheese.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+	color: #000080;
+	border: solid 2px #7BAFD4;
+	margin: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.Low-Rank {
+	height: 400px;
+	width: 45%;
+	display: inline-block;
+	border: solid 2px #7BAFD4;
+	margin-bottom: 5px;
+}
+
+.Rappers {
+	background-image: url("Rappers.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 5.0%;
+}
+
+.Females {
+	background-image: url("Trash.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 2.5%;
+}
+
+.Actors {
+	background-image: url("DeNiro.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 5.0%;
+}
+
+.Villains {
+	background-image: url("Scar.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 2.5%;
+}
