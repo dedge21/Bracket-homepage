@@ -59,6 +59,13 @@ body {
 	right: 0;
 }
 
+
+#beautiful {
+	width: 100%;
+	height: 100%;
+}
+
+
 .ThumbUp {
 	margin-right: 40px;
 	margin-bottom: 10px;
