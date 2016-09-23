@@ -2,6 +2,7 @@ body {
 	background-color: #000080;
 	border: 5px solid white;
 	color: white;
+	text-shadow: 3px #000;
 }
 
 #banner {
@@ -18,15 +19,12 @@ body {
 #nav-bar li {
 	display: inline;
 	margin-right: 20px;
-	border: solid white 1px;
-	border-radius: 2px;
-	background-color: #000080;
 	height: 40px;
 }
 
 #Feature {
 	height: 500px;
-	width: 95%;
+	width: 98%;
 	background-image: url("http://www.brazibites.com/wp-content/uploads/2015/08/about-cheese.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -36,14 +34,38 @@ body {
 	margin: auto;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	padding: 10px;
 }
 
-.Low-Rank {
+#bullpen {
+	height: 50px;
+	margin-bottom: -10px;
+	text-align: center;
+	font-size: 20px;
+}
+.Bullpen-Brackets {
 	height: 400px;
-	width: 45%;
+	width: 42.5%;
 	display: inline-block;
 	border: solid 2px #7BAFD4;
 	margin-bottom: 5px;
+	padding: 0px 10px 0px 10px;
+	position: relative;
+}
+
+.Bullpen-Brackets img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.ThumbUp {
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.ThumbDown {
+	margin-bottom: 10px;
 }
 
 .Rappers {
@@ -58,6 +80,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-right: 2.5%;
+	color: black;
+	text-align: right;
 }
 
 .Actors {
@@ -72,4 +96,37 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-right: 2.5%;
+	text-align: right;
+}
+
+span {
+	color: red;
+}
+
+h4 {
+	margin-top: -15px;
+}
+
+footer {
+	background-color: #7BAFD4;
+	height: 50px;
+	border-top: solid white 1px;
+	margin-top: 20px;
+	position: relative;
+}
+
+footer ul {
+	width: 46.0%;
+	display: inline-block;
+	overflow: auto;
+	vertical-align: center;
+}
+
+footer li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.social li {
+	float: right;
 }
